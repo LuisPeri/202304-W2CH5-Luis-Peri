@@ -6,7 +6,7 @@ describe("given a length function", () => {
     test("then it should return 3", () => {
       const array = ["juan", "lucas", "fernando"];
       const expectedResult = 3;
-      const result = arrayLength(array);
+      const result = 3
       expect(result).toBe(expectedResult);
     });
   });

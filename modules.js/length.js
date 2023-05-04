@@ -8,4 +8,4 @@ const arrayLength = (arrayExample) => {
 const colorArray = ["dark", "negro", "black", "obscure"];
 console.log(arrayLength(colorArray));
 
-export default arrayLength;
+module.exports = arrayLength;

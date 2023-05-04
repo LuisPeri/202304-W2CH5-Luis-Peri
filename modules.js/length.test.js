@@ -1,4 +1,4 @@
-import { arrayLength } from "../length.js";
+const arrayLength = require("./length.test.js")
 
 test("returns dimension of an array", () => {
   const arrayExample = ["dark", "negro", "black", "obscure"];
