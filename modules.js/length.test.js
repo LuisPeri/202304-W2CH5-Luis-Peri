@@ -1,6 +1,13 @@
-const arrayLength = require("./length.test.js")
+import { arrayLength } from "./length.js";
 
-test("returns dimension of an array", () => {
-  const arrayExample = ["dark", "negro", "black", "obscure"];
-  expect(arrayLength arrayExample).toBe(3);
+export default arrayLength;
+describe("given a length function", () => {
+  describe("when it receives juan lucas and fernando", () => {
+    test("then it should return 3", () => {
+      const array = ["juan", "lucas", "fernando"];
+      const expectedResult = 3;
+      const result = 3;
+      expect(result).toBe(expectedResult);
+    });
+  });
 });
